@@ -14,7 +14,7 @@ def check_the_checkbox(pdf_annotation,nm_substring):
     checkboxes_to_map = form_fileds_mapper["checkboxes"]
     checkbox_field_name_composer = None
     nm_element = annotation.get('/NM')
-    pattern = r"Group(\d)\[0\]\.#field\[(\d)\]"
+    pattern = r"Group(\d{1,2})\[0\]\.#field\[(\d)\]"
     match = re.search(pattern, nm_element)
     if match:
         group_no = match.group(1)  # Captured first digit
@@ -86,8 +86,17 @@ zamestnanec_odmena_od_kmenovej_firmy_ano = True
 zamestnanec_odmena_od_kmenovej_firmy_nie = False
 zamestnanec_zadanie_prace_kmenovou_firmou_ano = True
 zamestnanec_zadanie_prace_kmenovou_firmou_nie = False
+zamestnanec_nahradza_zamestnanca_ano = False
+zamestnanec_nahradza_zamestnanca_nie = True
 kmenova_firma_ADZ_ano = False
 kmenova_firma_ADZ_nie = True
+kmenova_firma_viac_zmluv_sr_ano = True
+kmenova_firma_viac_zmluv_sr_nie = False
+zamestnanec_uz_v_krajine_bol_vyslany_ano = True
+zamestnanec_uz_v_krajine_bol_vyslany_nie = False
+zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_ano = False
+zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_nie = True
+
 
 
 zamestnanec_titul_pred_menom = ""
@@ -115,6 +124,32 @@ zamestnanec_pracovna_napln_pred_vyslanim = "sales"
 odmenujuca_firma_v_zahranici = ""
 cielova_firma_v_zahranici = "" #PREMENOVAŤ PREMENNÚ NA - ODMENUJUCA_FIRMA_V_ZAHRANICI
 nahradenie_zamestnanca_meno_priezvisko = ""
+firma_pocet_zamestnancov = "13"
+firma_vykon_zamestnanci_sr = "3"
+firma_vykon_zamestnanci_out = "9"
+firma_admin_zamestnanci_sr = "1"
+firma_zamestnanci_provided = "0"
+firma_percent_obrat_sr = "75%"
+firma_percent_obrat_out = "25%"
+firma_ina_krajina_obratu = "Nemecko"
+firma_pocet_zakaziek_sr = "22"
+firma_pocet_zakaziek_out = "7"
+miesto_vyslania_nazov_subjektu = "Haus - Essen, Germany"
+miesto_vyslania_ico = "23432223"
+miesto_vyslania_ulica = "Nachskstrasse 23"
+miesto_vyslania_mesto = "Essen"
+miesto_vyslania_psc = "23453"
+miesto_vyslania_stat = "Deutschland"
+miesto_vyslania_kontakt_osoba = "Franz"
+id_lode = ""
+zamestnanec_vyslany_od = "1.1.2025"
+zamestnanec_vyslany_do = "31.12.2025"
+zamestnanec_druh_cinnosti_pri_vyslani = "murár"
+druh_cinnosti_kod_nace = "54321"
+podpis_firma_miesto = "Bardejov"
+podpis_firma_datum = "3.1.2025"
+podpis_zamestnanec_miesto = "Poprad"
+podpis_zamestnanec_datum = "1.1.2025"
 
 # Update mapper values based on the variables
 for key, value in text_fields_mapper.items():
@@ -180,6 +215,59 @@ for key, value in text_fields_mapper.items():
         text_fields_mapper[key] = cielova_firma_v_zahranici
     elif value == "nahradenie_zamestnanca_meno_priezvisko":
         text_fields_mapper[key] = nahradenie_zamestnanca_meno_priezvisko
+    elif value == "firma_pocet_zamestnancov":
+        text_fields_mapper[key] = firma_pocet_zamestnancov
+    elif value == "firma_vykon_zamestnanci_sr":
+        text_fields_mapper[key] = firma_vykon_zamestnanci_sr
+    elif value == "firma_vykon_zamestnanci_out":
+        text_fields_mapper[key] = firma_vykon_zamestnanci_out
+    elif value == "firma_admin_zamestnanci_sr":
+        text_fields_mapper[key] = firma_admin_zamestnanci_sr
+    elif value == "firma_zamestnanci_provided":
+        text_fields_mapper[key] = firma_zamestnanci_provided
+    elif value == "firma_percent_obrat_sr":
+        text_fields_mapper[key] = firma_percent_obrat_sr
+    elif value == "firma_percent_obrat_out":
+        text_fields_mapper[key] = firma_percent_obrat_out
+    elif value == "firma_ina_krajina_obratu":
+        text_fields_mapper[key] = firma_ina_krajina_obratu
+    elif value == "firma_pocet_zakaziek_sr":
+        text_fields_mapper[key] = firma_pocet_zakaziek_sr
+    elif value == "firma_pocet_zakaziek_out":
+        text_fields_mapper[key] = firma_pocet_zakaziek_out
+    elif value == "miesto_vyslania_nazov_subjektu":
+        text_fields_mapper[key] = miesto_vyslania_nazov_subjektu
+    elif value == "miesto_vyslania_ico":
+        text_fields_mapper[key] = miesto_vyslania_ico
+    elif value == "miesto_vyslania_ulica":
+        text_fields_mapper[key] = miesto_vyslania_ulica
+    elif value == "miesto_vyslania_mesto":
+        text_fields_mapper[key] = miesto_vyslania_mesto
+    elif value == "miesto_vyslania_psc":
+        text_fields_mapper[key] = miesto_vyslania_psc
+    elif value == "miesto_vyslania_stat":
+        text_fields_mapper[key] = miesto_vyslania_stat
+    elif value == "miesto_vyslania_kontakt_osoba":
+        text_fields_mapper[key] = miesto_vyslania_kontakt_osoba
+    elif value == "id_lode":
+        text_fields_mapper[key] = id_lode
+    elif value == "zamestnanec_vyslany_od":
+        text_fields_mapper[key] = zamestnanec_vyslany_od
+    elif value == "zamestnanec_vyslany_do":
+        text_fields_mapper[key] = zamestnanec_vyslany_do
+    elif value == "zamestnanec_druh_cinnosti_pri_vyslani":
+        text_fields_mapper[key] = zamestnanec_druh_cinnosti_pri_vyslani
+    elif value == "druh_cinnosti_kod_nace":
+        text_fields_mapper[key] = druh_cinnosti_kod_nace
+    elif value == "podpis_firma_miesto":
+        text_fields_mapper[key] = podpis_firma_miesto
+    elif value == "podpis_firma_datum":
+        text_fields_mapper[key] = podpis_firma_datum
+    elif value == "podpis_zamestnanec_miesto":
+        text_fields_mapper[key] = podpis_zamestnanec_miesto
+    elif value == "podpis_zamestnanec_datum":
+        text_fields_mapper[key] = podpis_zamestnanec_datum
+
 
 for key, value in checkbox_fields_mapper.items():
     if value == "zamestnanec_pohlavie_muz":
@@ -202,6 +290,38 @@ for key, value in checkbox_fields_mapper.items():
         checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_ano
     elif value == "zamestnanec_vyslany_prideleny_inej_firme_nie":
         checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+    elif value == "zamestnanec_subezny_uvazok_inej_firme_ano":
+        checkbox_fields_mapper[key] = zamestnanec_subezny_uvazok_inej_firme_ano
+    elif value == "zamestnanec_subezny_uvazok_inej_firme_nie":
+        checkbox_fields_mapper[key] = zamestnanec_subezny_uvazok_inej_firme_nie
+    elif value == "zamestnanec_odmena_od_kmenovej_firmy_ano":
+        checkbox_fields_mapper[key] = zamestnanec_odmena_od_kmenovej_firmy_ano
+    elif value == "zamestnanec_odmena_od_kmenovej_firmy_nie":
+        checkbox_fields_mapper[key] = zamestnanec_odmena_od_kmenovej_firmy_nie
+    elif value == "zamestnanec_zadanie_prace_kmenovou_firmou_ano":
+        checkbox_fields_mapper[key] = zamestnanec_zadanie_prace_kmenovou_firmou_ano
+    elif value == "zamestnanec_zadanie_prace_kmenovou_firmou_nie":
+        checkbox_fields_mapper[key] = zamestnanec_zadanie_prace_kmenovou_firmou_nie
+    elif value == "zamestnanec_nahradza_zamestnanca_ano":
+        checkbox_fields_mapper[key] = zamestnanec_nahradza_zamestnanca_ano
+    elif value == "zamestnanec_nahradza_zamestnanca_nie":
+        checkbox_fields_mapper[key] = zamestnanec_nahradza_zamestnanca_nie
+    elif value == "kmenova_firma_ADZ_ano":
+        checkbox_fields_mapper[key] = kmenova_firma_ADZ_ano
+    elif value == "kmenova_firma_ADZ_nie":
+        checkbox_fields_mapper[key] = kmenova_firma_ADZ_nie
+    elif value == "kmenova_firma_viac_zmluv_sr_ano":
+        checkbox_fields_mapper[key] = kmenova_firma_viac_zmluv_sr_ano
+    elif value == "kmenova_firma_viac_zmluv_sr_nie":
+        checkbox_fields_mapper[key] = kmenova_firma_viac_zmluv_sr_nie
+    elif value == "zamestnanec_uz_v_krajine_bol_vyslany_ano":
+        checkbox_fields_mapper[key] = zamestnanec_uz_v_krajine_bol_vyslany_ano
+    elif value == "zamestnanec_uz_v_krajine_bol_vyslany_nie":
+        checkbox_fields_mapper[key] = zamestnanec_uz_v_krajine_bol_vyslany_nie
+    elif value == "zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_ano":
+        checkbox_fields_mapper[key] = zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_ano
+    elif value == "zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_nie":
+        checkbox_fields_mapper[key] = zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_nie
 
 
 #for index, key, value in enumerate(mapper["checkboxes"].items()):
@@ -246,74 +366,114 @@ for page in template_pdf.pages:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group2[0].#field[1]")
 
-                if zamestnanec_poisteny_mesiac_spat_ano == True:
+                if "Group3[0].#field[0]" in annotation.get("/NM") and zamestnanec_poisteny_mesiac_spat_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group3[0].#field[0]")
 
-                if zamestnanec_poisteny_mesiac_spat_nie == True:
+                if "Group3[0].#field[1]" in annotation.get("/NM") and zamestnanec_poisteny_mesiac_spat_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_poisteny_mesiac_spat_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group3[0].#field[1]")
 
-                if zamestnanec_vyslany_jak_kmenovi_ano == True:
+                if "Group4[0].#field[0]" in annotation.get("/NM") and zamestnanec_vyslany_jak_kmenovi_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_jak_kmenovi_ano
                     current_checkbox_field_name_composer = check_the_checkbox(annotation,"Group4[0].#field[0]")
 
-                if zamestnanec_vyslany_jak_kmenovi_nie == True:
+                if "Group4[0].#field[1]" in annotation.get("/NM") and zamestnanec_vyslany_jak_kmenovi_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_poisteny_mesiac_spat_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation,"Group4[0].#field[1]")
 
-                if zamestnanec_vyslany_prideleny_inej_firme_ano == True:
+                if "Group5[0].#field[0]" in annotation.get("/NM") and zamestnanec_vyslany_prideleny_inej_firme_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_ano
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group5[0].#field[0]")
 
-                if zamestnanec_vyslany_prideleny_inej_firme_nie == True:
+                if "Group5[0].#field[1]" in annotation.get("/NM") and zamestnanec_vyslany_prideleny_inej_firme_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group5[0].#field[1]")
 
-                if zamestnanec_subezny_uvazok_inej_firme_ano == True:
+                if "Group6[0].#field[0]" in annotation.get("/NM") and zamestnanec_subezny_uvazok_inej_firme_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group6[0].#field[0]")
 
-                if zamestnanec_subezny_uvazok_inej_firme_nie == True:
+                if "Group6[0].#field[1]" in annotation.get("/NM") and zamestnanec_subezny_uvazok_inej_firme_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group6[0].#field[1]")
 
-                if zamestnanec_odmena_od_kmenovej_firmy_ano == True:
+                if "Group7[0].#field[0]" in annotation.get("/NM") and zamestnanec_odmena_od_kmenovej_firmy_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group7[0].#field[0]")
 
-                if zamestnanec_odmena_od_kmenovej_firmy_nie == True:
+                if "Group7[0].#field[1]" in annotation.get("/NM") and zamestnanec_odmena_od_kmenovej_firmy_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group7[0].#field[1]")
 
-                if zamestnanec_zadanie_prace_kmenovou_firmou_ano == True:
+                if "Group8[0].#field[0]" in annotation.get("/NM") and zamestnanec_zadanie_prace_kmenovou_firmou_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group8[0].#field[0]")
 
-                if zamestnanec_zadanie_prace_kmenovou_firmou_nie == True:
+                if "Group8[0].#field[1]" in annotation.get("/NM") and zamestnanec_zadanie_prace_kmenovou_firmou_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group8[0].#field[1]")
 
-                if kmenova_firma_ADZ_ano == True:
+                if "Group9[0].#field[0]" in annotation.get("/NM") and zamestnanec_nahradza_zamestnanca_ano == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group9[0].#field[0]")
 
-                if kmenova_firma_ADZ_nie == True:
+                if "Group9[0].#field[1]" in annotation.get("/NM") and zamestnanec_nahradza_zamestnanca_nie == True:
                     print(f"Current annotation is: {annotation.get('/NM')}")
                     #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
                     current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group9[0].#field[1]")
+
+                if "Group10[0].#field[0]" in annotation.get("/NM") and kmenova_firma_ADZ_ano == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group10[0].#field[0]")
+
+                if "Group10[0].#field[1]" in annotation.get("/NM") and kmenova_firma_ADZ_nie == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group10[0].#field[1]")
+
+                if "Group11[0].#field[0]" in annotation.get("/NM") and kmenova_firma_viac_zmluv_sr_ano == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group11[0].#field[0]")
+
+                if "Group11[0].#field[1]" in annotation.get("/NM") and kmenova_firma_viac_zmluv_sr_nie == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group11[0].#field[1]")
+
+                if "Group12[0].#field[0]" in annotation.get("/NM") and zamestnanec_uz_v_krajine_bol_vyslany_ano == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group12[0].#field[0]")
+
+                if "Group12[0].#field[1]" in annotation.get("/NM") and zamestnanec_uz_v_krajine_bol_vyslany_nie == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    #checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group12[0].#field[1]")
+
+                if "Group13[0].#field[0]" in annotation.get("/NM") and zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_ano == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    # checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group13[0].#field[0]")
+
+                if "Group13[0].#field[1]" in annotation.get("/NM") and zamestnanec_vystaveny_E101_PDA1_v_inej_krajine_nie == True:
+                    print(f"Current annotation is: {annotation.get('/NM')}")
+                    # checkbox_fields_mapper[key] = zamestnanec_vyslany_prideleny_inej_firme_nie
+                    current_checkbox_field_name_composer = check_the_checkbox(annotation, "Group13[0].#field[1]")
 
 # Save the updated PDF
 pdfrw.PdfWriter().write(output_pdf_path, template_pdf)
