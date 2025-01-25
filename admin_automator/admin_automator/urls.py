@@ -16,9 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from zentak_legal_automator.models import Employee
 from django.contrib import admin
 from django.urls import path, include
+admin.site.register(Employee)
+# admin.site.register(EventComment)
+# admin.site.register(User)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
