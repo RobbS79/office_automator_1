@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to Our Work Agency{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to [Agency Name]</h1>
+            <p class="lead">Connecting Talent with Opportunity</p>
+            <a href="{% url 'onboarding_form' %}" class="btn btn-light btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="display-5 mb-3">About Us</h2>
+                    <p>We are a newly founded work agency committed to providing the best job opportunities for job seekers and helping businesses find top-tier talent. Our platform is built to connect, empower, and create lasting career paths.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/500" alt="About Us" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services bg-light py-5">
+        <div class="container">
+            <h2 class="text-center display-5 mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Job Placement</h5>
+                            <p class="card-text">We help job seekers find positions that match their skills and passions, with opportunities across various industries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Employer Solutions</h5>
+                            <p class="card-text">We work with businesses to find the right talent, whether for permanent positions, contracts, or temporary staffing needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Career Development</h5>
+                            <p class="card-text">We offer training programs and resources to help job seekers build the skills needed to advance in their careers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center display-5 mb-5">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"This agency helped us find the perfect candidates for our team. Their process is efficient and tailored to our needs."</p>
+                        </blockquote>
+                        <footer class="blockquote-footer text-white">John Smith, CEO at TechCorp</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"Thanks to this agency, I found my dream job in no time. The support throughout the process was fantastic!"</p>
+                        </blockquote>
+                        <footer class="blockquote-footer text-white">Jane Doe, Marketing Specialist</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"A professional and reliable team that provides exceptional service. Highly recommend to anyone looking for top talent."</p>
+                        </blockquote>
+                        <footer class="blockquote-footer text-white">Sarah Johnson, HR Manager at DesignCo</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="call-to-action text-white bg-primary py-5">
+        <div class="container text-center">
+            <h2 class="display-4">Ready to Join Us?</h2>
+            <p class="lead">Whether you're looking for your next opportunity or need to hire the best talent, we are here to help. Get started today!</p>
+            <a href="{% url 'onboarding_form' %}" class="btn btn-light btn-lg">Sign Up Now</a>
+        </div>
+    </section>
+{% endblock %}
