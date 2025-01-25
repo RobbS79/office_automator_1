@@ -62,11 +62,11 @@ class CustomLogoutView(LoginRequiredMixin,LogoutView):
     next_page = reverse_lazy('home')
 
 
-class EmployeeFormView(PermissionRequiredMixin, FormView):
+class EmployeeFormView(LoginRequiredMixin, PermissionRequiredMixin, FormView):
     template_name = 'onboarding_form.html'
     form_class = EmployeeForm
     success_url = '/home'  # Redirect to the home page after successful form submission
-    permission_required = ['zentak_legal_automator.can_add_employee']  # Replace with your actual permission
+    permission_required = 'zentak_legal_automator.can_add_employee'  # Replace with your actual permission
 
     def form_valid(self, form):
         # Handle form submission logic, such as saving the data to the database
