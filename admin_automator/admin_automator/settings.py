@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "zentak_legal_automator",
-    #"zentak_leads_automator",
-    #"zentak_fintech_automator",
-    #"zentak_payroller_automator"
+    "zentak_leads_automator",
+    "zentak_fintech_automator",
+    "zentak_payroller_automator"
 ]
 
 MIDDLEWARE = [

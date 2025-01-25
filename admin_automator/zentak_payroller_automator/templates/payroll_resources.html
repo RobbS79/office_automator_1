@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container">
+        <h1>Payroll Resources</h1>
+
+        {% if payroller_data %}
+            <table class="table">
+                <thead>
+                    <tr>
+                        {% for key in payroller_data.0.keys %}
+                            <th>{{ key|title }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in payroller_data %}
+                        <tr>
+                            {% for value in item.values %}
+                                <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No payroll data available.</p>
+        {% endif %}
+    </div>
+{% endblock %}

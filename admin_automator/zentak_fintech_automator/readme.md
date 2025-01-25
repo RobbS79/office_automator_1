@@ -1,0 +1,5 @@
+- [ ] Make sure there are not duplicated records in db.transactions
+- [ ] Create a button to insert new transactions
+  - [ ] Develop following logic to accept CZ or SK transactions
+  - [ ] Implement the logic of lvl2_categorisation
+- [ ] Provide a button to download lvl2 categorised transactions

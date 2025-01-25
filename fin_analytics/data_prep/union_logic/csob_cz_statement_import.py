@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def get_cz_statement(statement_csv_path='/Users/robertsoroka/Downloads/csob-export-pohyby-20241225-00-13.CSV'):
+def get_cz_statement(statement_csv_path="/Users/robertsoroka/Downloads/csob-export-pohyby-20250118-13-15.CSV"):
     file_path = statement_csv_path
 
     # Read the CSV with the correct encoding
@@ -9,7 +9,7 @@ def get_cz_statement(statement_csv_path='/Users/robertsoroka/Downloads/csob-expo
     raw_csv_entries["datum zaúčtování"] = pd.to_datetime(raw_csv_entries["datum zaúčtování"], dayfirst=True)
     # Display the data
     print(raw_csv_entries.columns)
-    output_dir = 'transactions_2024'
+    output_dir = 'data_prep/sample_transactions/transactions_2024_lower_granular'
     os.makedirs(output_dir, exist_ok=True)
 
     # Add a 'Month' column for grouping
@@ -24,6 +24,7 @@ def get_cz_statement(statement_csv_path='/Users/robertsoroka/Downloads/csob-expo
         group.drop(columns=['Month'], inplace=True)  # Remove this line if you want to keep the 'Month' column
         group.to_csv(output_file, index=False)
         print(f"Saved {month} data to {output_file}")
+
     return group[["datum zaúčtování", "částka platby", "zpráva příjemci i plátci", "měna platby", "účet protistrany"]]
 
 a = get_cz_statement()

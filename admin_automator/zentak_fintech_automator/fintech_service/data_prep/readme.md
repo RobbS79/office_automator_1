@@ -1,0 +1,5 @@
+- [x] Stiahni prehlad transakcii z internetbankingu CSOB SK a CSOB CZ
+  - path_sk: fin_analytics/data_prep/sample_transactions/CSOB_SK_transactions_sample.csv
+  - path_cz: fin_analytics/data_prep/sample_transactions/CSOB_CZ_transactions_sample.csv
+- [ ] Perform logic na union SK a CZ transakcii
+  - 

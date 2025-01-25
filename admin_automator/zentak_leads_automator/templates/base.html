@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>{% block title %}Work Agency{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Work Agency</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'onboarding_form' %}">Onboarding Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'list_employees' %}">List of Employees</a>
+                    </li>
+                </ul>
+                <!-- Button to run the scraper -->
+                <button id="runScraperButton" class="btn btn-outline-light">Run Scraper</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Section for scraper output -->
+    <div id="scraperOutput" class="mt-4 container"></div>
+
+    <script>
+        // JavaScript to handle the scraper button click
+        document.getElementById("runScraperButton").addEventListener("click", function () {
+            fetch('/run-scraper/', {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                    'Content-Type': 'application/json',
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const outputDiv = document.getElementById("scraperOutput");
+                    if (data.status === "Scraping completed!") {
+                        const leads = data.leads;
+                        if (leads.length > 0) {
+                            let htmlContent = "<h4>Leads Table</h4><table class='table table-striped'>";
+                            htmlContent += "<thead><tr>";
+                            for (const key in leads[0]) {
+                                htmlContent += `<th>${key}</th>`;
+                            }
+                            htmlContent += "</tr></thead><tbody>";
+                            leads.forEach(lead => {
+                                htmlContent += "<tr>";
+                                for (const value of Object.values(lead)) {
+                                    htmlContent += `<td>${value}</td>`;
+                                }
+                                htmlContent += "</tr>";
+                            });
+                            htmlContent += "</tbody></table>";
+                            outputDiv.innerHTML = htmlContent;
+                        } else {
+                            outputDiv.innerHTML = "<p>No leads found.</p>";
+                        }
+                    } else {
+                        outputDiv.innerHTML = `<p>${data.status}</p>`;
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    document.getElementById("scraperOutput").innerHTML = "<p>Something went wrong. Check the console for details.</p>";
+                });
+        });
+    </script>
+</body>
+</html>

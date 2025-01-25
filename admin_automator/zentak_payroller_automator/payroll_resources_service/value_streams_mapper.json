@@ -1,0 +1,51 @@
+{
+    "pragis": [
+        {
+            "department": "voda",
+            "regex_pattern": "\\d{2}-\\d{2}-SLO\\.xls",
+            "subject": "hours_worked",
+            "contact_person_email": "cerny.zdenek@pragis.cz"
+        },
+        {
+            "department": "voda",
+            "regex_pattern": "ZÁLOHY (leden|unor|brezen|duben|kveten|cerven|cervenec|srpen|zari|rijen|listopad|prosinec) \\d{4}\\.xlsx",
+            "subject": "loans_short",
+            "contact_person_email": "cerny.zdenek@pragis.cz"
+        },
+        {
+            "department": "voda",
+            "regex_pattern": "(leden|unor|brezen|duben|kveten|cerven|cervenec|srpen|zari|rijen|listopad|prosinec) \\d{4}\\.xls",
+            "subject": "acceptance_protocol",
+            "contact_person_email": "cerny.zdenek@pragis.cz"
+        },
+        {   "department": "voda",
+            "regex_pattern":  "null",
+            "subject":  "bonus",
+            "contact_person_email": "cerny.zdenek@pragis.cz"
+        },
+        {
+            "department": "stavba",
+            "regex_pattern": "(leden|unor|brezen|duben|kveten|cerven|cervenec|srpen|zari|rijen|listopad|prosinec)\\.xlsx",
+            "subject": "hours_worked",
+            "contact_person_email": "zavadak.marek@pragis.cz"
+        },
+        {
+            "department": "stavba",
+            "regex_pattern": "zálohy \\d{2}-\\d{2}\\.xlsx",
+            "subject": "loans_short",
+            "contact_person_email": "zavadak.marek@pragis.cz"
+        },
+        {
+            "department": "stavba",
+            "regex_pattern": "[a-z_]+\\.xlsx",
+            "subject": "acceptance_protocol",
+            "contact_person_email": "zavadak.marek@pragis.cz"
+        },
+        {   "department": "stavba",
+            "regex_pattern":  "\\d{2}-\\d{2} slov\\.xlsx",
+            "subject":  "bonus",
+            "contact_person_email": "durcok.michal@pragis.cz"
+        }
+    ]
+
+}

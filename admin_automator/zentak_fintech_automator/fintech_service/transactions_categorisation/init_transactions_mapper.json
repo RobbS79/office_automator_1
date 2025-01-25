@@ -1,0 +1,4710 @@
+{
+    "expense": [
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Komovia s.r.o",
+            "counterparty_bank_account": "107-5779740207/0100",
+            "category_2": "services – dozor"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha 9 odbor do",
+            "counterparty_bank_account": "160012-2000910329/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha 9 odbor do",
+            "counterparty_bank_account": "160012-2000910329/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha 9 odbor do",
+            "counterparty_bank_account": "160012-2000910329/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha4 odbor dop",
+            "counterparty_bank_account": "30015-2000832359/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "COMUNE di VERONA",
+            "counterparty_bank_account": "IT80I0760111700001008474163",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Mestská časť Praha 4",
+            "counterparty_bank_account": "30015-2000832359/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2 Praha",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2 102 00",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK8381805002248137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2 102 00",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2 102 00Praha",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Auto Radlik s.r.o",
+            "counterparty_bank_account": "19-389700389/0800",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Danovy urad",
+            "counterparty_bank_account": "SK4781805002598137036377",
+            "category_2": "dan"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PNEU-RITMOTECHNA s.r.o",
+            "counterparty_bank_account": "SK7009000000005187024952",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PO CAR s.r.o",
+            "counterparty_bank_account": "SK8231000000004340018002",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Artem Gromakovskij",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Za vedenie uctu, vypisy a transakcie",
+            "counterparty_name": "Service Fees",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Nezpoplatněná splátka úvěru",
+            "counterparty_name": "KENTAK s.r.o.",
+            "counterparty_bank_account": "287858740/0300",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1171837002/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1171837002/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2 102 00 Praha",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2 102 00 Praha",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Artem Gromakovskij",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "UP Dejeuner s.r.o",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up DDejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up DDejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "De Janeur",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PNEU-RITMOTECHNA s.r.o",
+            "counterparty_bank_account": "SK7009000000005187024952",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Za vedení účtu, výpisy a transakce",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "banka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Up Dejeuner",
+            "counterparty_bank_account": "SK4281000001150271130237",
+            "category_2": "gastro listky"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZENTAK s.r.o",
+            "counterparty_bank_account": "SK6575000000004026922060",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha 9 odbor do",
+            "counterparty_bank_account": "160012-2000910329/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha4 odbor dop",
+            "counterparty_bank_account": "30015-2000832359/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PO CAR s.r.o",
+            "counterparty_bank_account": "SK8231000000004340018002",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "B2M.CZ s.r.o",
+            "counterparty_bank_account": "2366499001/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "TRIOSTECH s.r.o",
+            "counterparty_bank_account": "2101988176/2010",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "30015-2000832359/0800",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SIM s.ro",
+            "counterparty_bank_account": "SK7109000000000452670080",
+            "category_2": "Najom"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "7704-77628111/0710",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "671506002/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1071005073/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK5081800000007000142406",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dovera",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Soc.Poistonna",
+            "counterparty_bank_account": "SK7881800000007000156840",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "VsZP",
+            "counterparty_bank_account": "SK2781800000007000221681",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDr.Jaroslav Spicka",
+            "counterparty_bank_account": "SK4711000000002927908574",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Krajsky sud Bratislava",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Kucerova 10",
+            "counterparty_bank_account": "CZ9403000000000166678540",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Mgr.Petruska Martin",
+            "counterparty_bank_account": "SK1402000000002526482453",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SDA Slovensko s.r.o",
+            "counterparty_bank_account": "SK4181300000002114610009",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Statex s.r.o.",
+            "counterparty_bank_account": "SK8909000000005143264903",
+            "category_2": "pracovne pomocky"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "SK4181300000002114610009",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PNEU-RITMOTECHNA s.r.o",
+            "counterparty_bank_account": "SK7009000000005187024952",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PO CAR s.r.o",
+            "counterparty_bank_account": "SK4809000000000096277556",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bardcomp",
+            "counterparty_bank_account": "SK1909000000005040559944",
+            "category_2": "services – IT"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "BOZP",
+            "counterparty_bank_account": "SK0611000000002621015474",
+            "category_2": "services – Legal"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "7704-77628111/0710",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Zeko s.r.o",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Urad mestské časti Praha4 odbor dop",
+            "counterparty_bank_account": "30015-2000832359/0800",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "ZEKO s.r.o Tallerova 4",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "services – uctovnictvo"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Mestský úrad Slavkov u Brna",
+            "counterparty_bank_account": "19-729731/0100",
+            "category_2": "pokuta"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "Miroslav Harajda-PNEU-RITMOTECHNA s.r.o",
+            "counterparty_bank_account": "SK2609000000000085137793",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "PNEU-RITMOTECHNA s.r.o",
+            "counterparty_bank_account": "SK7009000000005187024952",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Ferenc Ladislav",
+            "counterparty_bank_account": "SK3109000000000622931117",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK3011000000002933553116",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Ferenc Ladislav",
+            "counterparty_bank_account": "SK3109000000000622931117",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK4102000000003354914153",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Prislopsky Jan",
+            "counterparty_bank_account": "SK3665000000003651706617",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "671506002/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK3011000000002933553116",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK1611000000008017416682",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "671506002/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "O2",
+            "counterparty_bank_account": "27-4908440207/0100",
+            "category_2": "telefon"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Volkswagen financial services",
+            "counterparty_bank_account": "604646021/0100",
+            "category_2": "fleet"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK3011000000002933553116",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "PRE Jungmanova 31",
+            "counterparty_bank_account": "CZ7201000000192784000277",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Prislopsky Jan",
+            "counterparty_bank_account": "SK3665000000003651706617",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "PRE Jungmanova 31",
+            "counterparty_bank_account": "CZ7201000000192784000277",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Odchozí úhrada",
+            "counterparty_name": "Alliance Devolopment Group s.r.o",
+            "counterparty_bank_account": "123-6473490297/0100",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Výběr hotovosti z účtu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SDA Slovensko s.r.o",
+            "counterparty_bank_account": "SK4181300000002114610009",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "SDA Slovensko s.r.o",
+            "counterparty_bank_account": "SK4181300000002114610009",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Slovak telekom a.s.",
+            "counterparty_bank_account": "SK5875000000000025505443",
+            "category_2": "Telefon"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "JuDrt.Rudolf Dulina",
+            "counterparty_bank_account": "SK3809000000000481017566",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK1611000000008017416682",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "Anderssenova 427/2",
+            "counterparty_bank_account": "CZ3855000000004551567001",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba",
+            "counterparty_name": "PRE Jungmanova 31",
+            "counterparty_bank_account": "CZ7201000000192784000277",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Poplatok za platbu",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Vyber hotovosti kartou",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vyber"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK1611000000008017416682",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Ferenc Ladislav",
+            "counterparty_bank_account": "SK3109000000000622931117",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK3011000000002933553116",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Prislopsky Jan",
+            "counterparty_bank_account": "SK3665000000003651706617",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Sincak Juraj",
+            "counterparty_bank_account": "CZ1455000000005511835520",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Stofko Roman",
+            "counterparty_bank_account": "SK2111000000008015364460",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Tekeli Miroslav",
+            "counterparty_bank_account": "SK4211000000002934381571",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Zelezny Marian",
+            "counterparty_bank_account": "SK4575000000004003789375",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Brincek Andrej",
+            "counterparty_bank_account": "SK8802000000001179392554",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Ferenc Ladislav",
+            "counterparty_bank_account": "SK3109000000000622931117",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Ferenc Ladislav",
+            "counterparty_bank_account": "SK3109000000000622931117",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK4102000000003354914153",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK1611000000008017416682",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Pavol",
+            "counterparty_bank_account": "SK3609000000005182814891",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK4102000000003354914153",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Ferenc Ladislav",
+            "counterparty_bank_account": "SK3109000000000622931117",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK1611000000008017416682",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Miroslav",
+            "counterparty_bank_account": "SK8665000000000094617553",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Dzurban",
+            "counterparty_bank_account": "SK9009000000005209459819",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Miko Martin",
+            "counterparty_bank_account": "SK1611000000008017416682",
+            "category_2": "vyplata"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Odoslana platba elektronicky",
+            "counterparty_name": "Bily Zdenko",
+            "counterparty_bank_account": "SK4765000000000018619143",
+            "category_2": "vyplata"
+        }
+    ],
+    "income": [
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "FÚ pro Středoč.kraj",
+            "counterparty_bank_account": "705-77628111/0710",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Financne riaditelstvo Slovenskej republiky",
+            "counterparty_bank_account": "SK6181805002408137036377",
+            "category_2": "dan – vratka"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "KENTAK S.R.O.",
+            "counterparty_bank_account": "CZ1103000000000198678297",
+            "category_2": "interne – sluzby"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Vseobecna zdravotna poistovna, a.s.",
+            "counterparty_bank_account": "SK7681800000007000182387",
+            "category_2": "odovdy"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "DOVERA zdravotna poistovna, a.s.",
+            "counterparty_bank_account": "SK5281800000007000747747",
+            "category_2": "odvody – vratka"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Vklad hotovosti na účet",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "Petr Nezveda",
+            "counterparty_bank_account": "1018516026/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Krajsky sud v Bratislave",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Krajsky sud v Bratislave",
+            "counterparty_bank_account": "SK1081800000007000142350",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Hotovostny vklad bankomatom",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vklad"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "zeleň-sutě s.r.o.",
+            "counterparty_bank_account": "1171837002/5500",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "zeleň-sutě s.r.o.",
+            "counterparty_bank_account": "1171837002/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Hotovostny vklad bankomatom",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vklad"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "MacFin Group s.r.o.",
+            "counterparty_bank_account": "9723026002/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "MIROSLAV HARAJDA - PNEU - RITMOTECHNA",
+            "counterparty_bank_account": "SK2609000000000085137793",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "MIROSLAV HARAJDA - PNEU - RITMOTECHNA",
+            "counterparty_bank_account": "SK2609000000000085137793",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZEKO S.R.O.",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "unknown"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada SEPA, EUR v rámci EU/EHP",
+            "counterparty_name": "ZEKO S.R.O.",
+            "counterparty_bank_account": "SK0583300000002001927034",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Hotovostny vklad bankomatom",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vklad"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Hotovostny vklad bankomatom",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vklad"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Prijata platba",
+            "counterparty_name": "Miroslav Lauko - LAMIR",
+            "counterparty_bank_account": "SK4111000000002629014919",
+            "category_2": "Prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "CZK",
+            "transaction_type": "Příchozí úhrada okamžitá",
+            "counterparty_name": "PRAGIS A.S.",
+            "counterparty_bank_account": "1414141414/5500",
+            "category_2": "prijem"
+        },
+        {
+            "currency": "EUR",
+            "transaction_type": "Hotovostny vklad bankomatom",
+            "counterparty_name": "null",
+            "counterparty_bank_account": "null",
+            "category_2": "vklad"
+        }
+    ]
+}

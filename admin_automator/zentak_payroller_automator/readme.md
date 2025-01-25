@@ -1,0 +1,14 @@
+- [ ] Read emails from inbox
+  - [x] MVP: Load email attachments manually
+  - v1: API call to Gmail API service
+- [x] Develop DB model for table attachements
+- [ ] Develop DB models for table loans_shor
+  - columns: id, borrower_first_name, borrower_last_name, amount, currency, in_eur, proof_document_file
+- [ ] Develop DB model for table bonuses
+  - columns: firs_name, last_name, from_approver, amount, unit, department
+- [x] Develop DB model for table hours_worked
+  - columns: emp_id, department, first_name, last_name, month, year
+- [ ] Develop DB model for departments
+  - columns: id, department, department_short, contact_person_email, partner
+- [ ] Develop DB model for acceptance protocols
+  - column: id, partner, project_name, department_short, price, contact_person_email

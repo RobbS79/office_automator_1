@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}PDA1 request form{% endblock %}
+
+{% block content %}
+    <h1>Fintech Service</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Run Fintech Service</button>
+    </form>
+{% endblock %}
+

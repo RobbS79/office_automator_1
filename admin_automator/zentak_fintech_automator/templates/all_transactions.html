@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}PDA1 request form{% endblock %}
+
+{% block content %}
+<body>
+    <h1>All Transactions</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Currency</th>
+                <th>Type</th>
+                <th>Counterparty Account</th>
+                <th>Message</th>
+                <th>Category 1</th>
+                <th>Category 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction.id }}</td>
+                <td>{{ transaction.date }}</td>
+                <td>{{ transaction.amount }}</td>
+                <td>{{ transaction.currency }}</td>
+                <td>{{ transaction.transaction_type }}</td>
+                <td>{{ transaction.counterparty_bank_account }}</td>
+                <td>{{ transaction.message }}</td>
+                <td>{{ transaction.category_1 }}</td>
+                <td>{{ transaction.category_2 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+{% endblock %}
