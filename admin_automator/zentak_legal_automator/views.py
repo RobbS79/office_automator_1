@@ -62,7 +62,7 @@ class CustomLogoutView(LoginRequiredMixin,LogoutView):
     next_page = reverse_lazy('home')
 
 
-class EmployeeFormView(PermissionRequiredMixin, FormView):
+class EmployeeFormView(LoginRequiredMixin, FormView):
     template_name = 'onboarding_form.html'
     form_class = EmployeeForm
     success_url = '/home'  # Redirect to the home page after successful form submission
@@ -74,7 +74,7 @@ class EmployeeFormView(PermissionRequiredMixin, FormView):
         return super().form_valid(form)
 
 
-class EmployeeAgreementFormView(PermissionRequiredMixin,FormView):
+class EmployeeAgreementFormView(LoginRequiredMixin,FormView):
     template_name = 'pda1_request.html'
     form_class = EmployeeAgreementForm
     success_url = '/home'  # Redirect to the home page after successful form submission
