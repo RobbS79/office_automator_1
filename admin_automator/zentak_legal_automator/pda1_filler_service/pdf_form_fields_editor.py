@@ -9,8 +9,8 @@ class PDFFormFiller:
     def __init__(self, db_employee_json_object):
         #self.pda1_data_dict = pda1_data_dict
         self.db_employee_json_object = db_employee_json_object
-        self.pda1_form_input_path = "/Users/robertsoroka/PycharmProjects/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/pda1_form.pdf"
-        self.pda1_form_output_path = "/Users/robertsoroka/PycharmProjects/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/filled_form.pdf"
+        self.pda1_form_input_path = "~/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/pda1_form.pdf"
+        self.pda1_form_output_path = "~/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/filled_form.pdf"
         self.form_fileds_mapper = form_fileds_mapper
 
 
