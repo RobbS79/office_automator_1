@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import HomePageView, EmployeeFormView, EmployeeAgreementFormView, RegistrationView, LoginView, CustomLogoutView
-
+from .views import fill_pda1_form
 
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
@@ -10,4 +10,5 @@ urlpatterns = [
     path('registration/', RegistrationView.as_view(), name='registration'),
     path('login/', LoginView.as_view(), name='login'),
     path('logout/', CustomLogoutView.as_view(), name='logout'),
+    path('fill-pda1-form/', fill_pda1_form, name='fill_pda1_form'),
 ]

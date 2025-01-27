@@ -4,7 +4,7 @@
 
 {% block content %}
     <h1 class="text-center mb-4">Employee Onboarding</h1>
-    <form method="post">
+    <form method="post" action="{% url 'fill_pda1_form' %}">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="btn btn-primary">Submit</button>

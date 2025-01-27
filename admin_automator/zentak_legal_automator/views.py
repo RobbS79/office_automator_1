@@ -8,6 +8,9 @@ from django.contrib.auth import authenticate, login
 from django.views.generic.edit import FormView
 from .forms import UserLoginForm
 from django.contrib.auth.views import LogoutView
+from .models import Employee
+from .pda1_filler_service.pdf_form_fields_editor import PDFFormFiller
+from django.http import JsonResponse
 
 
 class HomePageView(TemplateView):
@@ -84,3 +87,27 @@ class EmployeeAgreementFormView(LoginRequiredMixin,FormView):
         # Handle form submission logic, such as saving the data to the database
         form.save()
         return super().form_valid(form)
+
+
+def fill_pda1_form(request, *args, **kwargs):
+    from django.forms.models import model_to_dict
+    employees_qs = Employee.objects.all()
+    all_employees_data = []
+    for index,obj in enumerate(employees_qs):
+        if index > 0:
+            break
+        # Convert the model instance to a dictionary
+        employee_data = model_to_dict(obj)
+        # Generate the JSON-like mapping of {column_name: value}
+        employee_json = {key: value for key, value in employee_data.items()}
+        all_employees_data.append(employee_data)
+
+        # Process the generated JSON with your PDF editor
+        #pdf_form_fields_editor.fill_form(employee_json)
+    form_filler_instance = PDFFormFiller(employee_json)
+    form_filler_instance.process_pda1_filler()
+    return redirect('/app_one/home')
+
+"""-- send response as an argument to pdf_form_fields_editor
+    -- map values to form_fields_mapper dictinary
+    -- apply current logic to fill the pda1_request form"""
