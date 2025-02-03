@@ -19,10 +19,18 @@ from django.urls import path
 from zentak_legal_automator.models import Employee, Department,Pda1,User
 from django.contrib import admin
 from django.urls import path, include
-admin.site.register(Employee)
-admin.site.register(Pda1)
-admin.site.register(Department)
-admin.site.register(User)
+# Check if the model is already registered
+if not admin.site.is_registered(Employee):
+    admin.site.register(Employee)
+# Check if the model is already registered
+if not admin.site.is_registered(Pda1):
+    admin.site.register(Pda1)
+# Check if the model is already registered
+if not admin.site.is_registered(Department):
+    admin.site.register(Department)
+# Check if the model is already registered
+if not admin.site.is_registered(User):
+    admin.site.register(User)
 
 
 urlpatterns = [
