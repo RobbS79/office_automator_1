@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to Our Work Agency{% endblock %}
+
+{% block content %}
+<tbody>
+    {% for employee in employees %}
+        {% for pda1 in employee.pda1_set.all %}
+            <tr>
+                <td>{{ employee.id_employee }}</td>
+                <td>{{ employee.zamestnanec_meno }}</td>
+                <td>{{ employee.zamestnanec_priezvisko }}</td>
+                <td>{{ employee.zamestnanec_adresa_ulica }}, {{ employee.zamestnanec_adresa_mesto }}</td>
+                <td>
+                    <form method="post" action="{% url 'generate_pdf' employee.id_employee pda1.id_employee_agreement %}">
+                        {% csrf_token %}
+                        <button type="submit">Generate PDF</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    {% endfor %}
+</tbody>
+
+
+{% endblock %}

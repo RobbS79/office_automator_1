@@ -1,5 +1,4 @@
 from fillpdf import fillpdfs
-#from .form_fields_mapper import form_fileds_mapper
 
 
 class PDFFormFiller:
@@ -12,7 +11,14 @@ class PDFFormFiller:
     def process_pda1_filler(self):
         json_data = self.db_employee_json_object
         data_form_fields = fillpdfs.get_form_fields(self.pda1_form_input_path)
-        data_obj = {}
+        data_obj = {"nazov_firmy": "ZENTAK s.r.o.",
+                    "ico_firmy": "52328121",
+                    "sidlo_firmy_ulica": "Postova 5",
+                    "sidlo_firmy_mesto": "sidlo_firmy_psc",
+                    "sidlo_firmy_stat": "Slovensko",
+                    "kontaktna_osoba_firmy": "Ing. Jozef Soroka",
+
+                    }
 
         for json_data_key, json_data_value in json_data.items():
             print(json_data_key)

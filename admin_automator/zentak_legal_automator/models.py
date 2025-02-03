@@ -69,6 +69,12 @@ class Employee(models.Model):
     podpis_zamestnanec_datum = models.DateField(null=True, blank=True)
     zamestnanec_pohlavie_muz = models.BooleanField(default=False)
     zamestnanec_pohlavie_zena = models.BooleanField(default=False)
+    uvazok_pracovna_zmluva = models.BooleanField(default=False)
+    uvazok_dohoda = models.BooleanField(default=False)
+    pracovnopravny_vztah_od = models.DateField(null=True, blank=True)
+    pracovnopravny_vztah_do = models.CharField(max_length=100, null=True, blank=True)
+    zamestnanec_poisteny_mesiac_spat_ano = models.BooleanField(default=False)
+    zamestnanec_poisteny_mesiac_spat_nie = models.BooleanField(default=False)
 
     class Meta:
         db_table = 'employees'
@@ -82,6 +88,8 @@ class Pda1(models.Model):
     id_employee = models.ForeignKey("Employee", on_delete=models.CASCADE)
     zamestnanec_pracovna_napln_pred_vyslanim = models.TextField(null=True, blank=True)
     employee_agreement_type = models.Choices("pda1_requests","loan","investment","PPE")
+    zamestnanec_vyslany_jak_kmenovi_ano = models.BooleanField(default=False)
+    zamestnanec_vyslany_jak_kmenovi_nie = models.BooleanField(default=False)
     zamestnanec_vyslany_od = models.DateField(null=True, blank=True)#only for pda1_requests
     zamestnanec_vyslany_do = models.DateField(null=True, blank=True)#only for pda1_requests
     zamestnanec_druh_cinnosti_pri_vyslani = models.CharField(max_length=100, null=True, blank=True)#only for pda1_requests
