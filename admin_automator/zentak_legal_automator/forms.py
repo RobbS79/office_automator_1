@@ -1,5 +1,5 @@
 from django import forms
-from .models import Employee, EmployeeAgreement, User
+from .models import Employee, Pda1, User
 
 class UserRegistrationForm(forms.ModelForm):
     class Meta:
@@ -64,9 +64,9 @@ class EmployeeForm(forms.ModelForm):
                 self.fields[field].widget = forms.RadioSelect(choices=[(True, 'Yes'), (False, 'No')])
 
 
-class EmployeeAgreementForm(forms.ModelForm):
+class Pda1RequestForm(forms.ModelForm):
     class Meta:
-        model = EmployeeAgreement
+        model = Pda1
         fields = '__all__'
 
     def __init__(self, *args, **kwargs):

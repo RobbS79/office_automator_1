@@ -16,11 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from zentak_legal_automator.models import Employee
+from zentak_legal_automator.models import Employee, Department,Pda1
 from django.contrib import admin
 from django.urls import path, include
-admin.site.register(Employee)
-# admin.site.register(EventComment)
+#admin.site.register(Employee)
+#admin.site.register(Pda1)
+#admin.site.register(Department)
 # admin.site.register(User)
 
 

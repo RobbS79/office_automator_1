@@ -32,9 +32,21 @@ class User(models.Model):
         return check_password(raw_password, self.password)
 
 
+class Department(models.Model):
+    department_id = models.AutoField(primary_key=True)
+    department_name = models.CharField(max_length=150, unique=True)
+    head_of_department = models.CharField(max_length=150, unique=True)
+
+    class Meta:
+        db_table = 'departments'
+
+    def __str__(self):
+        return f'{self.department_name} {self.head_of_department}'
+
 
 class Employee(models.Model):
-    id_employee = models.IntegerField(primary_key=True)
+    id_employee = models.AutoField(primary_key=True)
+    department = models.IntegerField(null=True,blank=True)#models.ForeignKey('Department', on_delete=models.CASCADE)
     zamestnanec_titul_pred_menom = models.CharField(max_length=100,null=True,blank=True)
     zamestnanec_meno = models.CharField(max_length=100,null=True,blank=True)
     zamestnanec_priezvisko = models.CharField(max_length=100,null=True,blank=True)
@@ -65,7 +77,7 @@ class Employee(models.Model):
         return f'{self.zamestnanec_meno} {self.zamestnanec_priezvisko}'
 
 
-class EmployeeAgreement(models.Model):
+class Pda1(models.Model):
     id_employee_agreement = models.AutoField(primary_key=True)
     id_employee = models.ForeignKey("Employee", on_delete=models.CASCADE)
     zamestnanec_pracovna_napln_pred_vyslanim = models.TextField(null=True, blank=True)
@@ -94,3 +106,13 @@ class EmployeeAgreement(models.Model):
 
     def __str__(self):
         return f'Employee ID: {self.id_employee} and his: {self.employee_agreement_type}'
+
+
+class Pda1Doc(models.Model):
+    pda1_id = models.AutoField(primary_key=True)
+    id_employee = models.ForeignKey("Employee", on_delete=models.CASCADE)
+    file_path = models.FilePathField()
+    file = models.FileField(null=True, blank=True)
+
+    def __str__(self):
+        return f'Employee ID: {self.id_employee} and his: {self.file_path}'
