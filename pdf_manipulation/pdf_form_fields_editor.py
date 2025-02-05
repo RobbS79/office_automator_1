@@ -8,7 +8,17 @@ def extract_numeric(value):
         return float(value[0])  # If it's a PdfDict, extract the first value as a float
     return float(value)  # Otherwise, convert it to float directly
 
-def check_the_checkbox(pdf_annotation,nm_substring):
+def check_the_checkboxes(json_response_data_checkboxes, input_path, output_path):
+    form_fields = list(fillpdfs.get_form_fields(input_path).keys())
+    json_response_data = json_response_data_checkboxes
+    print(form_fields[9])
+    data_dict = {
+        form_fields[9]: json_response_data["zamestnanec_pohlavie_muz"]
+    }
+
+    fillpdfs.write_fillable_pdf(input_path, output_path, data_dict)
+
+"""def check_the_checkbox(pdf_annotation,nm_substring):
     #from static.form_fields_mapper import form_fileds_mapper
     annotation = pdf_annotation
     checkboxes_to_map = form_fileds_mapper["checkboxes"]
@@ -59,7 +69,7 @@ def check_the_checkbox(pdf_annotation,nm_substring):
                     annotation.update(PdfDict(Rect=[x0, y0, x0 + new_width, y0 + new_height]))
                     #print("Function run")
                     return checkbox_field_name_composer
-
+"""
 text_fields_mapper = form_fileds_mapper["text_fields"]
 checkbox_fields_mapper = form_fileds_mapper["checkboxes"]
 # Variables for the data to fill
@@ -348,7 +358,6 @@ for page in template_pdf.pages:
                         pdfrw.PdfDict(V=text_fields_mapper[field_name]))
 
             elif "Group" in annotation.get("/NM"):
-
                 if "Group1[0].#field[0]" in annotation.get("/NM") and zamestnanec_pohlavie_muz == True:
                     #print(f"Current annotation is: {annotation.get('/NM')}")
                     current_checkbox_field_name_composer = check_the_checkbox(annotation,"Group1[0].#field[0]")
