@@ -4,8 +4,8 @@ from fillpdf import fillpdfs
 class PDFFormFiller:
     def __init__(self, db_employee_json_object):
         self.db_employee_json_object = db_employee_json_object
-        self.pda1_form_input_path = "pdf_forms/pda1_form.pdf"
-        self.pda1_form_output_path = "pdf_forms/filled_form.pdf"
+        self.pda1_form_input_path = "/home/ubuntu/office_automator_1/office_automator_1/pdf_forms/pda1_form.pdf"
+        self.pda1_form_output_path = "/home/ubuntu/office_automator_1/office_automator_1/pdf_forms/filled_form.pdf"
         #self.form_fileds_mapper = form_fileds_mapper
 
     def process_pda1_filler(self):
