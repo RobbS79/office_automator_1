@@ -1,14 +1,16 @@
 from fillpdf import fillpdfs
-
+import os
 
 class PDFFormFiller:
     def __init__(self, db_employee_json_object):
         self.db_employee_json_object = db_employee_json_object
-        self.pda1_form_input_path = "~/office_automator_1/office_automator_1/pdf_forms/pda1_form.pdf"
-        self.pda1_form_output_path = "~/office_automator_1/office_automator_1/pdf_forms/filled_form.pdf"
-        #self.form_fileds_mapper = form_fileds_mapper
+        self.pda1_form_input_path = os.path.expanduser(
+            "~/office_automator_1/office_automator_1/pdf_forms/pda1_form.pdf")
+        self.pda1_form_output_path = os.path.expanduser(
+            "~/office_automator_1/office_automator_1/pdf_forms/filled_form.pdf")
 
-    def process_pda1_filler(self):
+
+def process_pda1_filler(self):
         json_data = self.db_employee_json_object
         data_form_fields = fillpdfs.get_form_fields(self.pda1_form_input_path)
         data_obj = {"nazov_firmy": "ZENTAK s.r.o.",
