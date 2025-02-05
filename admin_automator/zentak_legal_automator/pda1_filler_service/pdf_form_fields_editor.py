@@ -4,8 +4,8 @@ from fillpdf import fillpdfs
 class PDFFormFiller:
     def __init__(self, db_employee_json_object):
         self.db_employee_json_object = db_employee_json_object
-        self.pda1_form_input_path = "/Users/robertsoroka/Downloads/23092021-VP-3+-+Žiadosť+o+vystavenie+prenosného+dokumentu+A1+z+dôvodu+vyslania+zamestnanca+na+územie+iného+členského+štátu+EÚ (1) (3) (4).pdf"
-        self.pda1_form_output_path = "/Users/robertsoroka/PycharmProjects/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/filled_form.pdf"
+        self.pda1_form_input_path = "pdf_forms/pda1_form.pdf"
+        self.pda1_form_output_path = "pdf_forms/filled_form.pdf"
         #self.form_fileds_mapper = form_fileds_mapper
 
     def process_pda1_filler(self):
