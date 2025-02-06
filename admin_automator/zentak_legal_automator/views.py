@@ -160,7 +160,7 @@ def generate_pdf(request, id_employee, id_employee_agreement):
             )
 
             # Return file as download response
-            return FileResponse(open("~/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/filled_form.pdf", 'rb'), as_attachment=True, filename="Employee_Details.pdf")
+            return FileResponse(open("/home/ubuntu/office_automator_1/admin_automator/zentak_legal_automator/pda1_filler_service/pdf_forms/filled_form.pdf", 'rb'), as_attachment=True, filename="Employee_Details.pdf")
 
         except Exception as e:
             logger.error(f"Error generating PDF: {str(e)}", exc_info=True)
