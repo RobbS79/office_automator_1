@@ -167,7 +167,7 @@ def generate_pdf(request, id_employee, id_employee_agreement):
             return redirect('error_page')  # Redirect to an error page in case of error
 
     logger.warning("Invalid request method for generate_pdf.")
-    return redirect('employees_list')
+    return redirect('app_one/home')
 
 
 class Pda1FormView(LoginRequiredMixin,FormView):
