@@ -268,7 +268,11 @@ class NejstavScraper:
         """Main scraping method"""
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch(headless=False)
+                # Launch browser in headless mode
+                browser = p.chromium.launch(
+                    headless=True,  # Run in headless mode
+                    args=['--no-sandbox']  # Additional args for Linux servers
+                )
                 context = browser.new_context(
                     viewport={'width': 1920, 'height': 1080}
                 )
