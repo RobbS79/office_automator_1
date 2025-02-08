@@ -7,12 +7,23 @@ import pandas as pd
 import sqlite3
 from dotenv import load_dotenv
 
-load_dotenv()
+# Load .env file explicitly
+load_dotenv(override=True)
 
 
 class NejstavScraper:
     def __init__(self):
-        self.url = "https://nejstav.cz/katalog-praci?filters%5Bcategory%5D%5B%5D=65&filters%5Bcategory%5D%5B%5D=3&filters%5Bcategory%5D%5B%5D=1&filters%5Bcategory%5D%5B%5D=59&filters%5Bcategory%5D%5B%5D=23&filters%5Bcategory%5D%5B%5D=115&filters%5Bcategory%5D%5B%5D=27&filters%5Bcategory%5D%5B%5D=95&filters%5Bcategory%5D%5B%5D=11&filters%5Bcategory%5D%5B%5D=5&filters%5Bcategory%5D%5B%5D=63&filters%5Bcategory%5D%5B%5D=81&filters%5Bregion%5D%5B%5D=1&filters%5Bquery%5D="
+        # Get and verify credentials
+        self.username = os.getenv("NEJSTAV_USERNAME")
+        self.password = os.getenv("NEJSTAV_PASSWORD")
+        
+        if not self.username or not self.password:
+            print(f"Current working directory: {os.getcwd()}")
+            print(f"Username found: {'Yes' if self.username else 'No'}")
+            print(f"Password found: {'Yes' if self.password else 'No'}")
+            raise ValueError("Missing credentials in environment variables. Please set NEJSTAV_USERNAME and NEJSTAV_PASSWORD")
+            
+        self.url = "https://nejstav.cz/katalog-praci"
         self.executable_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
         self.browser = None
         self.page = None
@@ -43,22 +54,14 @@ class NejstavScraper:
             self.page.wait_for_selector("xpath=/html/body/div[1]/header/div/div[2]/a[5]").click()
             time.sleep(2)
 
-            # Get credentials from environment variables
-            username = os.getenv("NEJSTAV_USERNAME")  # Changed from USERNAME
-            password = os.getenv("NEJSTAV_PASSWORD")  # Changed from PASSWORD
-
-            # Verify credentials are available
-            if not username or not password:
-                raise ValueError("Missing credentials in environment variables. Please set NEJSTAV_USERNAME and NEJSTAV_PASSWORD")
-
             # Fill credentials
             self.page.wait_for_selector(
                 "xpath=/html/body/div[1]/div[1]/div/div[2]/div/form/div[1]/label[2]/input"
-            ).fill(username)
+            ).fill(self.username)
             
             self.page.wait_for_selector(
                 "xpath=/html/body/div[1]/div[1]/div/div[2]/div/form/div[2]/label[2]/input"
-            ).fill(password)
+            ).fill(self.password)
 
             # Submit login
             self.page.wait_for_selector(
