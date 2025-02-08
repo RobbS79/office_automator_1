@@ -1,6 +1,9 @@
 from django.urls import path
 from . import views
 
-"""urlpatterns = [
-    path('run-scraper/', views.run_scraper, name='run_scraper'),
-]"""
+app_name = 'app_two'  # Add namespace
+
+urlpatterns = [
+    path('', views.scraper_form, name='scraper-form'),
+    path('run-scraper/', views.run_scraper, name='run-scraper'),
+]

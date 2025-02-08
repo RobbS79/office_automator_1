@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}Run Scraper{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h2>Nejstav Lead Scraper</h2>
+    </div>
+    <div class="card-body">
+        <form method="POST" action="{% url 'app_two:run-scraper' %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">Run Scraper</button>
+        </form>
+    </div>
+</div>
+
+<div id="result" class="mt-4"></div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.querySelector('form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const button = this.querySelector('button');
+    button.disabled = true;
+    button.innerHTML = 'Scraping...';
+    
+    try {
+        const response = await fetch("{% url 'app_two:run-scraper' %}", {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value,
+            }
+        });
+        const data = await response.json();
+        
+        document.getElementById('result').innerHTML = `
+            <div class="alert alert-success">
+                ${data.status}
+                <br>
+                Found ${data.leads.length} leads
+            </div>
+        `;
+    } catch (error) {
+        document.getElementById('result').innerHTML = `
+            <div class="alert alert-danger">
+                Error: ${error.message}
+            </div>
+        `;
+    } finally {
+        button.disabled = false;
+        button.innerHTML = 'Run Scraper';
+    }
+});
+</script>
+{% endblock %}

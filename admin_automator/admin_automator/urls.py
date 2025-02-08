@@ -36,7 +36,7 @@ if not admin.site.is_registered(User):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('app_one/', include('zentak_legal_automator.urls')),  # Include app_one URLs
-    #path('app_two/', include('zentak_leads_automator.urls')),  # Include app_two URLs
+    path('app_two/', include('zentak_leads_automator.urls')),  # Include app_two URLs
     path('app_three/', include('zentak_fintech_automator.urls')),
     path('app_four/', include('zentak_payroller_automator.urls')),
 ]
