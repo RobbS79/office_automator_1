@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Lead Detail</h1>
+
+<h2>Lead ID: {{ lead.lead_id }}</h2>
+<p><strong>Headline:</strong> {{ lead.headline }}</p>
+<p><strong>Description:</strong> {{ lead.description }}</p>
+<p><strong>Post Date:</strong> {{ lead.post_date }}</p>
+<p><strong>Value:</strong> {{ lead.value }}</p>
+<p><strong>Customer Name:</strong> {{ lead.customer_name }}</p>
+<p><strong>Customer Email:</strong> {{ lead.customer_email }}</p>
+<p><strong>Customer Phone:</strong> {{ lead.customer_phone }}</p>
+<p><strong>Location:</strong> {{ lead.location }}</p>
+
+<a href="{% url 'app_two:leads_list' %}">Back to Leads List</a>
+
+{% endblock %} 

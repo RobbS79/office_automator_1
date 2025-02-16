@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Estimation</title>
+</head>
+<body>
+    <h1>Odhad stavebného projektu</h1>
+    <h2>Lead ID: {{ lead.id }} - {{ lead.headline }}</h2>
+    
+    <!-- Pridanie elementu pre chybové hlášky -->
+    <div id="error-message" style="color: red; margin-bottom: 1em;"></div>
+    
+    <form id="estimate-form">
+        <label for="headline">Headline:</label>
+        <input type="text" id="headline" name="headline" value="{{ lead.headline }}" required><br><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required>{{ lead.description }}</textarea><br><br>
+
+        <label for="value">Project Value:</label>
+        <input type="text" id="value" name="value" value="{{ lead.value }}" required><br><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" value="{{ lead.location }}" required><br><br>
+
+        <input type="hidden" id="lead_id" name="lead_id" value="{{ lead.id }}">
+
+        <button type="submit">Odhadnúť projekt</button>
+    </form>
+
+    <script>
+        document.getElementById('estimate-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Vyčistenie predchádzajúcich chybových hlášok
+            document.getElementById('error-message').textContent = '';
+            
+            // Show loading state
+            const submitButton = this.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+            submitButton.textContent = 'Spracováva sa...';
+            
+            const data = {
+                headline: document.getElementById('headline').value.trim(),
+                description: document.getElementById('description').value.trim(),
+                value: document.getElementById('value').value.trim(),
+                location: document.getElementById('location').value.trim(),
+                lead_id: document.getElementById('lead_id').value
+            };
+
+            // Validácia vstupov
+            if (!data.headline || !data.description || !data.value || !data.location) {
+                document.getElementById('error-message').textContent = 'Prosím vyplňte všetky povinné polia';
+                submitButton.disabled = false;
+                submitButton.textContent = 'Odhadnúť projekt';
+                return;
+            }
+
+            fetch("{% url 'app_two:construction_project_estimate' %}", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": "{{ csrf_token }}"
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.json().then(err => { throw err; });
+                }
+                return response.blob();
+            })
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = "odhad_projektu.xlsx";
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+            })
+            .catch(error => {
+                document.getElementById('error-message').textContent = 
+                    `Chyba: ${error.message || 'Niečo sa pokazilo'}`;
+            })
+            .finally(() => {
+                submitButton.disabled = false;
+                submitButton.textContent = 'Odhadnúť projekt';
+            });
+        });
+    </script>
+</body>
+</html> 

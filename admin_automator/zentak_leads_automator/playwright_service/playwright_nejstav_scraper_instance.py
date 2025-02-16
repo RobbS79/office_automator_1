@@ -23,7 +23,7 @@ class NejstavScraper:
             print(f"Password found: {'Yes' if self.password else 'No'}")
             raise ValueError("Missing credentials in environment variables. Please set NEJSTAV_USERNAME and NEJSTAV_PASSWORD")
             
-        self.url = "https://nejstav.cz/katalog-praci"
+        self.url = "https://nejstav.cz/katalog-praci?filters%5Bcategory%5D%5B%5D=65&filters%5Bcategory%5D%5B%5D=3&filters%5Bcategory%5D%5B%5D=1&filters%5Bcategory%5D%5B%5D=59&filters%5Bcategory%5D%5B%5D=23&filters%5Bcategory%5D%5B%5D=115&filters%5Bcategory%5D%5B%5D=27&filters%5Bcategory%5D%5B%5D=95&filters%5Bcategory%5D%5B%5D=11&filters%5Bcategory%5D%5B%5D=5&filters%5Bcategory%5D%5B%5D=63&filters%5Bcategory%5D%5B%5D=81&filters%5Bcategory%5D%5B%5D=93&filters%5Bcategory%5D%5B%5D=33&filters%5Bcategory%5D%5B%5D=29&filters%5Bcategory%5D%5B%5D=21&filters%5Bcategory%5D%5B%5D=53&filters%5Bcategory%5D%5B%5D=61&filters%5Bcategory%5D%5B%5D=89&filters%5Bregion%5D%5B%5D=1&filters%5Bregion%5D%5B%5D=7&filters%5Bregion%5D%5B%5D=5&filters%5Bquery%5D="
         self.executable_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
         self.browser = None
         self.page = None
@@ -54,14 +54,22 @@ class NejstavScraper:
             self.page.wait_for_selector("xpath=/html/body/div[1]/header/div/div[2]/a[5]").click()
             time.sleep(2)
 
+            # Get credentials from environment variables
+            username = os.getenv("NEJSTAV_USERNAME")  # Changed from USERNAME
+            password = os.getenv("NEJSTAV_PASSWORD")  # Changed from PASSWORD
+
+            # Verify credentials are available
+            if not username or not password:
+                raise ValueError("Missing credentials in environment variables. Please set NEJSTAV_USERNAME and NEJSTAV_PASSWORD")
+
             # Fill credentials
             self.page.wait_for_selector(
                 "xpath=/html/body/div[1]/div[1]/div/div[2]/div/form/div[1]/label[2]/input"
-            ).fill(self.username)
+            ).fill(username)
             
             self.page.wait_for_selector(
                 "xpath=/html/body/div[1]/div[1]/div/div[2]/div/form/div[2]/label[2]/input"
-            ).fill(self.password)
+            ).fill(password)
 
             # Submit login
             self.page.wait_for_selector(
@@ -322,7 +330,7 @@ class NejstavScraper:
 
 
 # Usage
-"""url = "https://nejstav.cz/katalog-praci?filters%5Bcategory%5D%5B%5D=65&filters%5Bcategory%5D%5B%5D=3&filters%5Bcategory%5D%5B%5D=1&filters%5Bcategory%5D%5B%5D=59&filters%5Bcategory%5D%5B%5D=23&filters%5Bcategory%5D%5B%5D=115&filters%5Bcategory%5D%5B%5D=27&filters%5Bcategory%5D%5B%5D=95&filters%5Bcategory%5D%5B%5D=11&filters%5Bcategory%5D%5B%5D=5&filters%5Bcategory%5D%5B%5D=63&filters%5Bcategory%5D%5B%5D=81&filters%5Bregion%5D%5B%5D=1&filters%5Bquery%5D="
+'''url = "https://nejstav.cz/katalog-praci?filters%5Bcategory%5D%5B%5D=65&filters%5Bcategory%5D%5B%5D=3&filters%5Bcategory%5D%5B%5D=1&filters%5Bcategory%5D%5B%5D=59&filters%5Bcategory%5D%5B%5D=23&filters%5Bcategory%5D%5B%5D=115&filters%5Bcategory%5D%5B%5D=27&filters%5Bcategory%5D%5B%5D=95&filters%5Bcategory%5D%5B%5D=11&filters%5Bcategory%5D%5B%5D=5&filters%5Bcategory%5D%5B%5D=63&filters%5Bcategory%5D%5B%5D=81&filters%5Bregion%5D%5B%5D=1&filters%5Bquery%5D="
 executable_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 scraper = NejstavScraper()
@@ -330,5 +338,4 @@ df = scraper.scrape()
 scraper.save_to_sql()
 scraper.save_to_excel()
 
-print("Scraping completed!")
-"""
+print("Scraping completed!")'''

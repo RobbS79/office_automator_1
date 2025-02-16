@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Leads List</h1>
+
+<a href="{% url 'app_two:leads_list' %}?export_excel=true" class="btn btn-primary">Export to Excel</a>
+<a href="{% url 'app_two:construction_project_estimate' %}" class="btn btn-success">Estimate Project</a>
+
+<div id="response-message"></div>
+
+<h2>Available Leads</h2>
+<ul>
+    {% for lead in leads %}
+        <li>
+            <a href="{% url 'app_two:lead_detail' lead.lead_id %}">Lead ID: {{ lead.lead_id }} - {{ lead.headline }}</a>
+            <!-- Debugging output -->
+            <p>Generated URL: {% url 'app_two:lead_detail' lead.lead_id %}</p>
+            <!-- Link to estimate a specific project -->
+            <a href="{% url 'app_two:construction_project_estimate' %}?lead_id={{ lead.lead_id }}" class="btn btn-secondary">Estimate This Project</a>
+        </li>
+    {% empty %}
+        <li>No leads available.</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
